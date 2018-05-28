@@ -39,11 +39,16 @@
         }
     },
     "scripts": {
+
+        
         "post-install-cmd": 
         [ "php artisan clear-compiled", 
             "chmod -R 777 storage", 
             "php artisan passport:keys" 
             ], 
+
+
+
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
