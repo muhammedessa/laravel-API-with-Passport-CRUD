@@ -7,6 +7,8 @@ use App\Http\Controllers\API\BaseController as BaseController;
 use App\User;
 use  Validator ;
 
+use Illuminate\Support\Facades\Auth;  //added
+
 
 class RegisterController extends BaseController  
 {
